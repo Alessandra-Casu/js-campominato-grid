@@ -40,9 +40,10 @@ footer{
 .cell{
     width: calc(100% / var(--sideSquare));
     height: calc(100% / var(--sideSquare)) ;
-    display: flex;
     flex-grow: 0;
     flex-shrink: 0;
+    border: 1px solid black;
+    display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;

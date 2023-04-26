@@ -26,7 +26,7 @@ btnPlay.addEventListener('click', function(){
 
 
 /*FUNCTION DEFINITIONS*/
-function createGrid (nCells,  eleContainer){
+function createGrid (nCells, eleContainer){
     console.log(nCells);
 
     const side = Math.sqrt(nCells);
